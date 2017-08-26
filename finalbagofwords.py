@@ -90,7 +90,10 @@ for i in h:
 		# print(h1)
 		w.append(round(h1,2))
 
-print(w)
+#print(w)
+
+for i in range(0,len(w),len(h)):
+	print(w[i:i+len(h)])
 
 
 # file1="to be or not to be"
